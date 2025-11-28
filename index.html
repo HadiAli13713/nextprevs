@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #main{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+    }
+    #cantinar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #image{
+        width: 30%;
+        height: 40vh;
+    }
+    img{
+        border-radius: 5px;
+    }
+    #text{
+        width: 50% ;
+        height: 30vh;
+    }
+     
+</style>
+</head>
+<body>
+
+<div id="main">
+    <div id="cantinar">
+        <div id="image">
+            <img src="./public/images/images (1).jfif" id="img">
+        </div>
+        <div id="text">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eaque numquam obcaecati debitis, sed quos eos eum alias magnam quia perspiciatis itaque laboriosam tempore. Qui aspernatur ullam esse minus! Rerum?
+</p>
+        </div>
+    </div>
+    <div id="btn">
+        <button onclick="prev()"><</button>
+        <button onclick="next()">></button>
+    </div>
+</div>
+
+
+
+    <script src="./public/app.js"></script>
+</body>
+</html>
